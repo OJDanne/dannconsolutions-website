@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Für Kandidaten | DannCon Solutions</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Hauptnavigation">
+      <a class="brand" href="index.html" aria-label="DannCon Solutions Startseite"><img class="brand-logo" src="danncon-logo.png" alt="DannCon Solutions Logo" /></a>
+      <div class="nav-links">
+        <a href="index.html">Startseite</a>
+        <a href="leistungen.html">Leistungen</a>
+        <a href="preise.html">Preise</a>
+        <a href="prozess.html">Prozess</a>
+        <a href="kandidaten.html">Kandidaten</a>
+        <a href="kontakt.html">Kontakt</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <p class="eyebrow">Für Kandidaten</p>
+      <h1>Vertrauliche Gespräche über passende Karriereoptionen.</h1>
+      <p class="hero-text">Kandidatenprofile werden nicht ohne ausdrückliche Einwilligung an Unternehmen weitergegeben.</p>
+    </section>
+
+    <section class="section split candidate-contact-section">
+      <div>
+        <h2>Was Kandidaten erwarten können</h2>
+        <ul class="check-list">
+          <li>Vertraulicher Erstkontakt</li>
+          <li>Transparente Rolleninformationen</li>
+          <li>Keine Weitergabe ohne Zustimmung</li>
+        </ul>
+      </div>
+      <form class="contact-form candidate-form" action="mailto:oscar.dannhaeuser@dannconsolutions.com" method="post" enctype="text/plain">
+        <h2>Kandidatenkontakt</h2>
+        <label>
+          Name
+          <input type="text" name="kandidat_name" autocomplete="name" placeholder="Ihr Name" />
+        </label>
+        <label>
+          E-Mail
+          <input type="email" name="kandidat_email" autocomplete="email" placeholder="name@example.com" />
+        </label>
+        <label>
+          Aktuelle Rolle
+          <input type="text" name="aktuelle_rolle" placeholder="z. B. Controller, HR Manager, Software Engineer" />
+        </label>
+        <label>
+          Nachricht
+          <textarea name="kandidat_nachricht" rows="5" placeholder="Welche Art von Rolle wäre interessant?"></textarea>
+        </label>
+        <button class="button primary" type="submit">Vertrauliche Anfrage senden</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer"><span>DannCon Solutions</span><div><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a></div></footer>
+</body>
+</html>
